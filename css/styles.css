@@ -45,7 +45,7 @@ footer{
 }
 
 
-@media (min-width: 768px) and  (max-width: 1090px){
+@media (min-width: 768px) and  (max-width: 1200px){
   .grid{
     grid-template-areas: 
       "hd hd"
@@ -55,7 +55,7 @@ footer{
   }
 }
 
-@media (min-width: 1090px){
+@media (min-width: 1200px){
   .grid{
     grid-template-areas: 
       "hd hd"
@@ -64,3 +64,4 @@ footer{
       "ft ft";
     }
   }
+
