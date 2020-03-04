@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  min-height: 100px;
+  text-align: center;
+  padding: 1em;
+}
+
+body{
+  background-color: tan ;
+}
+
+header{
+  background-color: cornflowerblue;
+  grid-area: hd;
+}
+
+article{
+  background-color: darkgrey;
+  grid-area: art;
+}
+
+.box1{
+  background-color: wheat;
+  grid-area: b1;
+}
+
+aside{
+  background-color: lightblue;
+  grid-area: asi;
+}
+
+footer{
+  background-color: thistle;
+  grid-area: ft;
+}
+
+.grid{
+  display: grid;
+  grid-template-areas: 
+  "hd"
+  "b1"
+  "asi"
+  "art"
+  "ft";
+}

@@ -1,6 +1,6 @@
-# [HTML & CSS capstone project: Directory of Restaurants
+# Article
 
-> 
+> article
 
 ![screenshot](./assets/.png)
 
